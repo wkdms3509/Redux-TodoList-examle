@@ -1,0 +1,26 @@
+.todoitem {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.checkBtn {
+    padding-right: 5px;
+    padding-top: 3px;
+}
+
+.textbox {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #888;
+    margin-right: 7px;
+}
+
+.checkBtn.isCompleted {
+    text-decoration: line-through;
+}
+
+.contents.checked {
+    color: #cdcdcd;
+    text-decoration: line-through;
+}
